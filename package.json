@@ -3,19 +3,19 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
- "scripts": {
-  "start:api": "node src/api/server.js",
-  "start:dev:api": "nodemon src/api/server.js",
-  "start:worker": "node src/workers/worker.js",
-  "start:dev:worker": "nodemon src/workers/worker.js",
-  "test": "echo \"Error: no test specified\" && exit 1"
-},
+  "scripts": {
+    "start:api": "node src/api/server.js",
+    "start:dev:api": "nodemon src/api/server.js",
+    "start:worker": "node src/workers/worker.js",
+    "start:dev:worker": "nodemon src/workers/worker.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "bullmq": "^5.61.2",
-    "cron-parser": "^5.4.0",
+    "cron-parser": "^4.9.0",
     "dotenv": "^17.2.3",
     "express": "^5.1.0",
     "joi": "^18.0.1",
